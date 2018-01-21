@@ -1,0 +1,26 @@
+{
+  "name": "sddlparser",
+  "version": "1.0.0",
+  "description": "JavaScript SDDL Parser",
+  "main": "index.html",
+  "scripts": {
+    "test": "start http://127.0.0.1:8080/?sddl=O:BAG:BA && http-server .",
+    "build": "pegjs --format globals --export-var sddlParser .\\sddlparser.pegjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-risney/SddlParser.git"
+  },
+  "keywords": [
+    "sddl"
+  ],
+  "author": "Dave Risney (dave@deletethis.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/david-risney/SddlParser/issues"
+  },
+  "homepage": "https://github.com/david-risney/SddlParser#readme",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
