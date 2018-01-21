@@ -1,5 +1,5 @@
 # SddlParser
-Gathers info from the following sources to generate a grammar to run through [PEG.js](https://pegjs.org/) to produce a parser that can turn SDDL into a more human readable string
+I gathered info from the following sources to generate a grammar to run through [PEG.js](https://pegjs.org/) to produce a parser that can turn SDDL into a more human readable string
 
  * [Understanding SDDL Syntax](https://itconnect.uw.edu/wares/msinf/other-help/understanding-sddl-syntax/)
  * [MSDN Security Descriptor String Format](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379570(v=vs.85).aspx)
